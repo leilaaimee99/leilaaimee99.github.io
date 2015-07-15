@@ -4,4 +4,10 @@ h1{font-size:80pt;
  color:green;
  
 }
-p{color:purple;}
+p{color:blue;
+  font-size:12pt;
+}
+a{color:blue;
+  font-size:12pt;
+}
+body{background:orange;}
