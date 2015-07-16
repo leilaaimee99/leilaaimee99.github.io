@@ -33,12 +33,19 @@ function script() {
   };
   v.onmouseout = function() {
    document.getElementById('ne').style.display = 'none'; 
- };p
-  var p = document.getElementById('');
+ };
+  var p = document.getElementById('haha');
   p.onmouseover = function() {
-   document.getElementById('').style.display = 'block';
+   document.getElementById('h').style.display = 'block';
   };
-  v.onmouseout = function() {
-   document.getElementById('').style.display = 'none'; 
+  p.onmouseout = function() {
+   document.getElementById('h').style.display = 'none'; 
+};
+var l = document.getElementById('n');
+  l.onmouseover = function() {
+   document.getElementById('z').style.display = 'block';
+  };
+  l.onmouseout = function() {
+   document.getElementById('z').style.display = 'none'; 
 };
 }
