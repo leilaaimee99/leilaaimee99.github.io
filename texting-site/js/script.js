@@ -10,7 +10,7 @@ var sendText= function(){
 };
 setTimeout(function() {
    console.log("hello");
-   maestro.Twilio.recieveSms("+12106694352",function(reply){
+   maestro.Twilio.recieveSms(function(reply){
     console.log(reply.from); 
    });
 }, 1000);

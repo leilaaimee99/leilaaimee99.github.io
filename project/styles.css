@@ -1,0 +1,21 @@
+.parent.popup {
+  display: none;
+}
+.parent:hover .popup {
+  display: block;
+}
+h1{font-size:80pt;
+  text-align:center;
+ font-family:Arial;
+ color:black;
+}
+p{color:grey;
+  font-size:15pt;
+  font-family:Arial;
+}
+div{color:grey;
+  font-size:15pt;
+  font-family:Arial;
+}
+body{background:brown;
+}
